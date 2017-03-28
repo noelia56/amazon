@@ -1,0 +1,51 @@
+<html>
+<head>
+        <link rel="stylesheet" href="bootstrap.css"/>
+        <script type="text/javascript" src="jquery.min.js"></Script>
+        <script type="text/javascript" src="bootstrap.js"></Script>
+</head>
+<body>
+<div id="logo-buscador-cuenta">
+        <!--éste div es para usarlo en el detector de nuevos anuncios-->
+        
+        <div id="bloque-logo">
+            <div id="contenedor-opcion-menu"><a href="#" data-jq-dropdown="#opciones-categ" data-vertical-offset="15"><div id="opcion-menu"></div></a></div>
+            <!--<a href="./" title="¡Bienvenido a Tumomo!"><div id="bloque-logo-img"/></div></a>-->
+            <a href="./" title="¡Bienvenido a Tumomo!" id="lg_tumomo"><div id="bloque-logo-img"><img src="img/logo_10y.png?1.0.2" style="margin-top: 4px"></div></a>
+            <div id="bloque-ciudades" class="srmhvr">
+                <a href="#" data-jq-dropdown="#opciones-ciudades" class="lnkTopMenu">Bolivia&nbsp;&nbsp;<div class="contenedor-user-arrow"><div class="arrow-down"></div></div></a>
+            </div>
+        </div>
+        
+        <div id="bloque-buscador" class="search">
+            <form action="index.php">
+                <input type="hidden" name="page" value="search">
+                <input type="hidden" name="s_res" value="OR">
+                <input type="hidden" name="stype" value="all">
+                <div> 
+                  <input size="60" maxlength="300" type="text" name="q" placeholder="Escribe lo que estas buscando o ingresa el ID del anuncio" 
+                  value="" id="q" class="ui-autocomplete-input" autocomplete="off"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span> 
+                  <input type="submit" class="btn_buscar" value="">  
+                </div>
+            </form>
+        </div>
+                
+            <div id="bloque-opciones">
+                <div id="tmmpegas_no_ses">
+                    <div id="tmmpegas_ses">
+                        <a href="http://www.tumomo.com/bman/adpeeps.php?bf=go&amp;uid=100000&amp;bzone=banner-tupega-ingresar&amp;bsize=145x39&amp;bmode=off&amp;btype=1&amp;bpos=default" 
+                        target="_blank">
+                            <img class="url_tumomo_pegas_acceso" 
+                            src="http://www.tumomo.com/bman/adpeeps.php?bf=showad&amp;uid=100000&amp;bzone=banner-tupega-ingresar&amp;bsize=145x39&amp;bmode=off&amp;btype=1&amp;bpos=default"
+                             width="145" height="39" alt="Tumomo Pegas" title="Tumomo Pegas" border="0"></a>
+                    </div>
+                </div>       
+                <div id="opciones-no-conectado">
+                                    <a href="./?page=login" class="lnkTopMenu">Ingresar</a> &nbsp;&nbsp; <a href="./?page=registrar" class="lnkTopMenu">Registrarse</a>
+                            </div>
+                <div style="clear: both"></div>
+            </div>
+                    
+    </div>
+</body>
+</html
